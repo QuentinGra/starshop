@@ -19,6 +19,7 @@ class MainController extends AbstractController
             'captain' => 'Jean-Luc Pickles',
             'status' => 'under construction',
         ];
+
         return $this->render('main/homepage.html.twig', [
             'numberOfStarships' => $starshipCount,
             'myShip' => $myShip,
